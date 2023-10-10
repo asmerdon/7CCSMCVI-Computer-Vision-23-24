@@ -136,9 +136,4 @@ subplot(2,3,4); imagesc(Ialab(:,:,1)); axis('off','equal','tight'); colorbar, ti
 subplot(2,3,5); imagesc(Ialab(:,:,2)); axis('off','equal','tight'); colorbar, title('a-channel');
 subplot(2,3,6); imagesc(Ialab(:,:,3)); axis('off','equal','tight'); colorbar, title('b-channel');
 
-IalabL = Ialab(:,:,1);
-IalabA = Ialab(:,:,2);
-IalabB = Ialab(:,:,3);
-IalabL(100,100)
-IalabA(100,100)
-IalabB(100,100)
+Ialab(:,:,1)(100,100)
